@@ -4,7 +4,7 @@ url = "https://golf-leaderboard-data.p.rapidapi.com/world-rankings"
 
 headers = {
     'x-rapidapi-host': "golf-leaderboard-data.p.rapidapi.com",
-    'x-rapidapi-key': "2f3de43532mshfdabba757fe2b87p106ddajsna8d5fd3d5639"
+    'x-rapidapi-key': "API_KEY"
     }
 
 response = requests.request("GET", url, headers=headers)

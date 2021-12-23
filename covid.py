@@ -6,7 +6,7 @@ querystring = {"date":"2020-08-08"}
 
 headers = {
     'x-rapidapi-host': "covid-19-data.p.rapidapi.com",
-    'x-rapidapi-key': "2f3de43532mshfdabba757fe2b87p106ddajsna8d5fd3d5639"
+    'x-rapidapi-key': "API_KEY"
     }
 
 response = requests.request("GET", url, headers=headers)
